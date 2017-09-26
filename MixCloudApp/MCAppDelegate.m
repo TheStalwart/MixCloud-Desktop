@@ -73,6 +73,8 @@ static NSString *castNameJavaScript = @""
     [prefs setLocalStorageEnabled:YES];
     [prefs setJavaScriptEnabled:YES];
     [prefs setJavaScriptCanOpenWindowsAutomatically:YES];
+    [prefs setUserStyleSheetEnabled:YES];
+    [prefs setUserStyleSheetLocation:[[NSBundle mainBundle] URLForResource:@"UserStyleSheet" withExtension:@"css"]];
     [self.webView setUIDelegate:self];
     [self.webView setGroupName:@"MixCloudApp"];
     // navigate to mixcloud

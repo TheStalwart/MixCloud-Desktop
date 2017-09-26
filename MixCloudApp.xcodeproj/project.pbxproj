@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480A42021F7A5AB600C48C25 /* UserStyleSheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 480A42011F7A5AB600C48C25 /* UserStyleSheet.css */; };
 		A26D0473191BDF9B0034FFF1 /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D0471191BDF9B0034FFF1 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A26D0477191BE0610034FFF1 /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D0476191BE0610034FFF1 /* NSObject+SPInvocationGrabbing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A290A542191A80ED00EC85FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290A541191A80ED00EC85FB /* Cocoa.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		480A42011F7A5AB600C48C25 /* UserStyleSheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = UserStyleSheet.css; sourceTree = "<group>"; };
 		A26D0470191BDF9B0034FFF1 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
 		A26D0471191BDF9B0034FFF1 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
 		A26D0475191BE0610034FFF1 /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				A290A54D191A80ED00EC85FB /* main.m */,
 				A290A54F191A80ED00EC85FB /* MixCloudApp-Prefix.pch */,
 				A290A550191A80ED00EC85FB /* Credits.rtf */,
+				480A42011F7A5AB600C48C25 /* UserStyleSheet.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480A42021F7A5AB600C48C25 /* UserStyleSheet.css in Resources */,
 				A290A54C191A80ED00EC85FB /* InfoPlist.strings in Resources */,
 				A290A55A191A80ED00EC85FB /* Images.xcassets in Resources */,
 				A290A552191A80ED00EC85FB /* Credits.rtf in Resources */,
