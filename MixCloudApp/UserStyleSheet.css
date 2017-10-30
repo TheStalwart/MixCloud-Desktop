@@ -1,7 +1,6 @@
-.ad-header-container {
-    display: none;
-}
-
-.ad-mpu {
-    display: none;
+div.ad-header-container,
+div.ad-mpu,
+div.job-ad,
+div.competition-announcement {
+    display: none !important;
 }
